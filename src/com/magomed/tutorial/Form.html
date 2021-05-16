@@ -10,7 +10,7 @@
 <h1>Your One and Only Flight Search Platform (a.k.a. YOAOFSP)</h1>
 
 <body>
-    <form autocomplete="on">
+    <form autocomplete="on" onsubmit="return false">
         <div id="departure">
             <label for="from_place">Departing from</label>
             <input type="text" id="from_place">
@@ -30,6 +30,7 @@
             <input type="text" id="qty_passengers">
         <div>
             <input type="submit" onclick="showInput();">
+            <input type="reset" onclick="reset();">
         </div>
     </form>
 <p>The results are as follows: <BR>

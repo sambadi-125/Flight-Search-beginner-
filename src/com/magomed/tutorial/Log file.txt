@@ -1,0 +1,8 @@
+link for API requests: https://rapidapi.com/skyscanner/api/skyscanner-flight-search
+
+1) need to use elements selected via JS-code for API call to rapidAPI (for retreiving the flight price - to start with)
+2) General design of the website
+3) add list of countries to select from rather than hard-texting
+4) add calendar for departure/return dates
+5) passengers select (dropdown with numbers...up to 200??)
+6) Feature for submiting- but not (yet) to any data base. rather an instant reply creating a confirmation downloadable doc on a different page
